@@ -60,7 +60,7 @@ KRAIT_TUNINGS := true
 ENABLE_GCCONLY := true
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
-BOOT_ZIP_OUT_FILE := OrionKernel-$(TARGET_DEVICE)-$(PLATFORM_VERSION)-$(shell date +"%Y%m%d")
+BOOT_ZIP_OUT_FILE := FrenzyKernel-$(TARGET_DEVICE)-$(PLATFORM_VERSION)-$(shell date +"%Y%m%d")
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
